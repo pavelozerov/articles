@@ -1,3 +1,5 @@
+> Note! This article is not a policy, straight rule or instruction. The purpose of hereby document is rather to be a guideline, showing the advantages of Behavior-Driven Development approach within software delivery process.
+
 # BDD essentials
 
 ## Abstract
@@ -16,13 +18,13 @@ describes how the BDD concept can be applied to any product development.
 ## Specification vs Living Documentation
 What does the specification process look like in a "classic" way? Well, it reminds the creation of [impossible bottle](https://en.wikipedia.org/wiki/Impossible_bottle), in the sense that analyst becomes a bottleneck (Figure 1). In this structure, the analyst is the only person, who commits to source of information (usually this is some collaboration software, e.g. Confluence). This means that any change in future must be done by the analyst, and rest of the team does not control these changes anyhow. Worse, they may not even know about them. So, this is insidious process, the main disadvantage of which is the speed of changes, because different things are always stuck in queue. The situation is also complicated by the fact, that teams work at own pace, which means that analyst will never receive the feedback on what is done immediately. It might happen even new feature description process already started. Analyst becomes a "gateway" and in this state can only hold limited amount of things in the head. Now there are two queues between which you have to switch: one with TODO things, that can be handled step-by-step only and another one with things-to-be-changed based on a late feedback from team. But as you know, between two stools one falls to the ground.
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure1.png?raw=true" border="1" width="300"/>
+<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure1.png?raw=true" border="1" width="250"/>
 
 **Figure1**
 
 Why BDD is a problem solver? Because of a **Living Documentation.** Instead of having the analyst role as a "bottleneck", transform it into supporting role (Figure 2). In this structure the analyst still works closely with different teams, but with one important difference. Instead of making changes by oneself, analyst just collects all the needed information, structures it and creates a shared place, where all involved people can work. This shared page have different chapters (specifically for developers, QA, product owners, etc.) that must be filled by responsible team members. With this approach analyst is not the bottleneck anymore, since **now everybody is responsible for the documentation and knowledge sharing.**
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure2.png?raw=true" border="1" width="300"/>
+<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure2.png?raw=true" border="1" width="350"/>
 
 **Figure 2**
 
@@ -101,8 +103,17 @@ Feature Mapping starts with a breakdown. What is the feature breakdown? This is 
 * Architecture overview of an Epic
 * Business requirements described as user story (Figure 11)
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure11.png?raw=true" border="1" width="550"/>
+```
+Feature: Customer can return goods back to merchant's stock
+As a customer
+I want to be able to return goods
+And I can get a refund
 
+Acceptance criteria:
+- Amount of items added to stock equals to the amount of items customer returns
+- In case of return goods must be returned to merchant's stock
+- Customer can get refund
+```
 **Figure 11**
 
 What else we then need? According to the essence of feature Mapping, the goal of such an activity is to discover **acceptance criteria** and business requirements. For instance, based on the story from Figure 10, the analyst might note down the following initial **business rules:**
@@ -133,8 +144,14 @@ Sequence diagram is the result of detailing the architecture overview diagram. B
 ## Writing a good scenario
 Once acceptance criteria are defined and feature is described, then this is the right time to go further and breakdown sequence diagram even more, and make scenarios. Scenario is a **representation of sequence diagram** in text (Figure 13). You may wonder, why this is necessary if you already have a sequence diagram? Again due to the variety of level of detail.
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure13.png?raw=true" border="1" width="550"/>
-
+```
+@Returns
+Scenario: Goods returned by customer should go back to merchant's stock
+Given customer bought black sweater from merchant
+And 3 black sweaters left in stock
+When customer returns black sweater for refund to merchant
+Then merchant has 4 black sweaters in stock
+```
 **Figure 13**
 
 Every page related to a new feature is created using a specific template that autogenerates several chapters on the page, such as "Overview", "Architecture overview", "Requirements overview", "Implementation details", etc. Basically, each chapter is a dedicated area, where people from different levels can put own information in order to share it with all the people involved. But people from high-level maybe not so interested in implementation details, but rather they want to understand the behaviour of feature in general. Then scenarios will help them to get them! They will not check complex diagrams with lots of technical details, but will check short and straight forward behavioural representation from scenarios. And vice versa if someone from technical or implementation level of details will be interested in some nuances of implementation, then technical diagrams and notes from developers will give such a possibility. Basically, this is again the essence of BDD - **to give everybody needed level of understanding.**

@@ -79,7 +79,7 @@ When analysis is ready developers can start to work on **feature implementation*
 # Feature essentials
 
 ## Feature Mapping
-The biggest advantage of BDD is that it let people to use the same language to understand requirements in the same way. In order to achieve this, there is such a technique called [Feature Mapping](https://johnfergusonsmart.com/feature-mapping-a-simpler-path-from-stories-to-executable-acceptance-criteria/). According to its author, [John Ferguson Smart](https://johnfergusonsmart.com/author/), in a nutshell, the process goes something like this:
+The biggest advantage of BDD is that it let people to use the same language to understand requirements in the same way. In order to achieve this, there is such a technique called [Feature Mapping](https://johnfergusonsmart.com/feature-mapping-a-simpler-path-from-stories-to-executable-acceptance-criteria/). According to its author, [John Ferguson Smart](https://johnfergusonsmart.com/author/), in a nutshell the process goes something like this:
 
 * Define a feature or story, or pick one from the backlog
 * Understand what actors are involved in the story

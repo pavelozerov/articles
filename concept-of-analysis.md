@@ -200,7 +200,4 @@ Because everything is connected. If you want to change business requirement, fir
 ## References
 * [Behavior-Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development)
 * [Gherkin](https://cucumber.io/docs/gherkin/)
-* [John Ferguson Smart](https://johnfergusonsmart.com/author/)
-* [When what we ask for is not what we get, and what we get is not what we need](https://johnfergusonsmart.com/how-great-teams-deliver-great-products/)
 * [Feature Mapping – a simpler path from stories to executable acceptance criteria](https://johnfergusonsmart.com/feature-mapping-a-simpler-path-from-stories-to-executable-acceptance-criteria/)
-* [Feature Mapping – a lightweight requirements discovery practice for agile teams](https://johnfergusonsmart.com/feature-mapping-a-lightweight-requirements-discovery-practice-for-agile-teams/)

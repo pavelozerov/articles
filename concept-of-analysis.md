@@ -1,5 +1,3 @@
-> Note! This article is not a policy, straight rule or instruction. The purpose of hereby document is rather to be a guideline, showing the advantages of Behavior-Driven Development approach within software delivery process.
-
 # BDD essentials
 
 ## Abstract
@@ -16,16 +14,14 @@ have value? The key is a **Behavior-Driven Development**. This article
 describes how the BDD concept can be applied to any product development.
 
 ## Specification vs Living Documentation
-What does the specification process look like in a "classic" way? Well, it reminds the creation of [impossible bottle](https://en.wikipedia.org/wiki/Impossible_bottle), in the sense that analyst becomes a bottleneck (Figure 1). In this structure, the analyst is the only person, who commits to source of information (usually this is some collaboration software, e.g. Confluence). This means that any change in future must be done by the analyst, and rest of the team does not control these changes anyhow. Worse, they may not even know about them. So, this is insidious process, the main disadvantage of which is the speed of changes, because different things are always stuck in queue. The situation is also complicated by the fact, that teams work at own pace, which means that analyst will never receive the feedback on what is done immediately. It might happen even new feature description process already started. Analyst becomes a "gateway" and in this state can only hold limited amount of things in the head. Now there are two queues between which you have to switch: one with TODO things, that can be handled step-by-step only and another one with things-to-be-changed based on a late feedback from team. But as you know, between two stools one falls to the ground.
+What does the specification process look like in a "classic" way? Well, it reminds the [impossible bottle](https://en.wikipedia.org/wiki/Impossible_bottle), in the sense that analyst becomes a bottleneck (Figure 1). In this structure, the analyst is the only person, who commits to source of information (usually this is some collaboration software, e.g. Confluence). This means that any change in future must be done by the analyst, and rest of the team does not control these changes anyhow. Worse, they may not even know about them. So, this is insidious process, the main disadvantage of which is the speed of changes, because different things are always stuck in queue. The situation is also complicated by the fact, that teams work at own pace, which means that analyst will never receive the feedback on what is done immediately. It might happen even new feature description process already started. Analyst becomes a "gateway" and in this state can only hold limited amount of things in the head. Now there are two queues between which you have to switch: one with TODO things, that can be handled step-by-step only and another one with things-to-be-changed based on a late feedback from team. But as you know, between two stools one falls to the ground.
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure1.png?raw=true" border="1" width="250"/>
-
-**Figure1**
+<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure1.png?raw=true" border="1" width="200"/>
+**Figure 1**
 
 Why BDD is a problem solver? Because of a **Living Documentation.** Instead of having the analyst role as a "bottleneck", transform it into supporting role (Figure 2). In this structure the analyst still works closely with different teams, but with one important difference. Instead of making changes by oneself, analyst just collects all the needed information, structures it and creates a shared place, where all involved people can work. This shared page have different chapters (specifically for developers, QA, product owners, etc.) that must be filled by responsible team members. With this approach analyst is not the bottleneck anymore, since **now everybody is responsible for the documentation and knowledge sharing.**
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure2.png?raw=true" border="1" width="350"/>
-
+<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure2.png?raw=true" border="1" width="300"/>
 **Figure 2**
 
 ## Tower of Babel
@@ -34,24 +30,19 @@ What is Behavior-Driven Development, BDD for? Someone can say that this is somet
 Okay, but if Legacy is the root cause of a documentation lack, what is the root cause of Legacy then? Well, the answer is quite simple - the **communication lack.** In order to make an example more memorable, we can refer to the Tower of Babel myth (Figure 3). In the sense of IT for example, in the beginning of the project people discuss the idea and all seems to be clear - people speak on the same language. But during the project moves further and more people get involved, then as a result there is always the lack of communication. The stage, when it will happen might vary, but it will definitely happen. And since the moment, when people start to speak different languages the development is doomed to become a typical IT project, where you need to go through 9 circles of Dante's hell before it will be finished (Figure 4). Exactly the same happened to people in Tower of Babel myth - they were failed with own initiative to build a tower tall enough to reach heaven, because team cannot be successful if people can no longer understand each other in the same way. BDD seeks to help to avoid this scenario, as it teaches people how to collaborate and speak the same language.
 
 <img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure3.png?raw=true" border="1" width="400"/>
-
 **Figure 3**
-
 <img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure4.png?raw=true" border="1" width="400"/>
-
 **Figure 4**
 
 ## Unity of everything
 Before we will go further in order to discover the implementation of BDD approach, let's have a quick look back first. The sole purpose of mentioning Tower of Babel myth was to show the importance of the communication. This is the only condition, which makes teams successful, because it creates collaboration. It may not be obvious, but it is the only cure for Legacy, because it is exactly its root cause (Figure 5).
 
 <img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure5.png?raw=true" border="1" />
-
 **Figure 5**
 
 Let's now go deeper into details. What is the root cause of communication lack? All people think differently. This is known fact and essentially this is awesome, because different thinking allows people to see things from different angles; thus we make discoveries and progress. However, such the uniqueness, the result of which is a **different way of thinking, is the reason that people understand things differently.** And exactly different way of understanding is the root cause of communication lack. For example, if you will ask some group of people to describe the same thing, most probably as a result you will get as many answers as there are respondents. So, just communication is not enough. Even well-coordinated communication is not enough. Communication should provide **clearness and collaboration.** Based on that we can extend previous drawing with a new dependency (Figure 6).
 
 <img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure6.png?raw=true" border="1" width="550"/>
-
 **Figure 6**
 
 ## Level of details
@@ -60,13 +51,11 @@ And the next logical question: how can we fix this? However, in order to answer 
 Let's try to figure out how we can fix this then? Does BDD is designed for that? Of course! In the essence, BDD is nothing but a **collaborative** practice that aims/helps to deliver higher value software more effectively by making a balance between level of details that business and development team need. It involves a lot of parties and it's essentially important that they would be satisfied with requirements, described scenarios and implementation details. That's why analysts, architects, developers and QA have to move to the same level of details and work can only be started, when all the related sides are agreed on scenarios (Figure 7). Such an agreement between all the related parties is very similar to a **contract.** Like with a real contract people put own signatures, which means that they agree on conditions (requirements) that should be met. Otherwise deal (feature/product) will be failed. Anyway, it's also important to remember that during the implementation there might be such a situation, when contract (specification) might be changed based on some research or limitations. This is normal situation, since BDD is a collaborative process which allows to keep information constantly up-to-date as a **Living Documentation.** It means that specification can be changed, but only on one mandatory condition: a new contract should be made, where all the changes are reflected and all people are agreed on. So, there are plenty of things that can be improved using BDD, such as consistency, clearness, confidence, automation and time-to-delivery; by this we can highlight such benefits as clear and common definition of done, shorter period from business requirements to production and implementation that matches requirements.
 
 <img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure7.png?raw=true" border="1" width="350"/>
-
 **Figure 7**
 
 The most important thing to remember is that BDD is all about working together when teams provide only what is valuable and really matters (Figure 8).
 
 <img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure8.png?raw=true" border="1" width="400"/>
-
 **Figure 8**
 
 ## Implementation of BDD
@@ -75,7 +64,6 @@ Development always starts from the idea. Usually all the ideas-without-analysis 
 When analysis is ready developers can start to work on **feature implementation** using tickets from **development backlog.** When development finished, there is a QA phase when engineers prepare **automated tests** that are implementation of the behavioural scenarios created during the Feature Mapping process. When functional testing is done, feature moves to **acceptance testing**, where analyst and business have to make sure that current implementation does exactly the same what is in the business requirements (Figure 9).
 
 <img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure9.png?raw=true" border="1" width="550"/>
-
 **Figure 9**
 
 # Feature essentials
@@ -93,7 +81,6 @@ The biggest advantage of BDD is that it let people to use the same language to u
 Feature Mapping is collaborative activity, which makes the whole team work together in order to define **value** of the feature.
 
 <img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/feature-mapping-process.png?raw=true" border="1" width="550"/>
-
 **Figure 10**
 
 ## Feature breakdown
@@ -103,17 +90,7 @@ Feature Mapping starts with a breakdown. What is the feature breakdown? This is 
 * Architecture overview of an Epic
 * Business requirements described as user story (Figure 11)
 
-```
-Feature: Customer can return goods back to merchant's stock
-As a customer
-I want to be able to return goods
-And I can get a refund
-
-Acceptance criteria:
-- Amount of items added to stock equals to the amount of items customer returns
-- In case of return goods must be returned to merchant's stock
-- Customer can get refund
-```
+<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure11.png?raw=true" border="1" width="550"/>
 **Figure 11**
 
 What else we then need? According to the essence of feature Mapping, the goal of such an activity is to discover **acceptance criteria** and business requirements. For instance, based on the story from Figure 10, the analyst might note down the following initial **business rules:**
@@ -136,7 +113,6 @@ So, what is the essence of feature Mapping and breakdown then? What modules do w
 In order to create create good scenarios, feature requires a bit more breakdown than just acceptance criteria. Sequence diagrams are one of the useful artefacts of that process. Basically sequence diagram is a set of **actors** and **actions** that describes the workflow in a technical way. Ideally each couple of interaction arrows is a separate scenario with a **testable outcome**, but it might also be that scenario includes several arrows from the diagram (Figure 12).
 
 <img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure12.png?raw=true" border="1" width="550"/>
-
 **Figure 12**
 
 Sequence diagram is the result of detailing the architecture overview diagram. Basically, you just need to "zoom in" some part of architecture view and start to describe it on another level of details. Sequence diagram is extremely useful for implementation process, hence it is related to implementation level of details, whereas architecture overview relates to a high-level.
@@ -144,14 +120,7 @@ Sequence diagram is the result of detailing the architecture overview diagram. B
 ## Writing a good scenario
 Once acceptance criteria are defined and feature is described, then this is the right time to go further and breakdown sequence diagram even more, and make scenarios. Scenario is a **representation of sequence diagram** in text (Figure 13). You may wonder, why this is necessary if you already have a sequence diagram? Again due to the variety of level of detail.
 
-```
-@Returns
-Scenario: Goods returned by customer should go back to merchant's stock
-Given customer bought black sweater from merchant
-And 3 black sweaters left in stock
-When customer returns black sweater for refund to merchant
-Then merchant has 4 black sweaters in stock
-```
+<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure13.png?raw=true" border="1" width="550"/>
 **Figure 13**
 
 Every page related to a new feature is created using a specific template that autogenerates several chapters on the page, such as "Overview", "Architecture overview", "Requirements overview", "Implementation details", etc. Basically, each chapter is a dedicated area, where people from different levels can put own information in order to share it with all the people involved. But people from high-level maybe not so interested in implementation details, but rather they want to understand the behaviour of feature in general. Then scenarios will help them to get them! They will not check complex diagrams with lots of technical details, but will check short and straight forward behavioural representation from scenarios. And vice versa if someone from technical or implementation level of details will be interested in some nuances of implementation, then technical diagrams and notes from developers will give such a possibility. Basically, this is again the essence of BDD - **to give everybody needed level of understanding.**
@@ -174,7 +143,6 @@ Usually an ideal scenarios have several layer of details in order to be clear se
 In order to make the scenario breakdown simpler, the "AAA" principle can be used. Going back to the syntax of BDD, you may have noticed that this is kind of a modern mix of different "classical" techniques that combines "precondition, trigger, post-condition" notation from the use cases, "As a... I want... So that..." notation from the user stories and "Act, Assert, Arrange" notation from the science of unit testing. But in our case **AAA stands for "Actor-Action-Actor"** (Figure 14).
 
 <img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure14.png?raw=true" border="1" width="550"/>
-
 **Figure 14**
 
 In your mind's eye divide scenario horizontally and vertically. **Each part of scenario should respond to the AAA principle.** It means, that every single statement within scenario, such as Given-When-Then should include 2 actors and 1 action between them. This allows scenarios to be modular and clearness remains on each level of details.
@@ -183,7 +151,6 @@ In your mind's eye divide scenario horizontally and vertically. **Each part of s
 Since there is a lot of criteria on how to write good scenarios, there is a scenario evaluation checklist that can be printed out and used for every new scenario (Figure 15).
 
 <img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure15.png?raw=true" border="1" width="550"/>
-
 **Figure 15**
 
 Scenarios have to be kept as short as possible, because extra (and usually unneeded) words make understanding more complicated. **Try not to use articles a/an/the/etc.** Despite the fact that grammatically this is incorrect, this gives easier interpretation. Gherkin syntax is limited, but it's limited intentionally. Such strict structure forces to express your thoughts concisely and clearly.

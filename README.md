@@ -1,1 +1,2 @@
 # articles
+List of articles on different topics. The texts are the results of research in areas of my interest. Every topic is confirmed by the practice on real projects. If you want to copy/share/publish/etc. some article, please feel free to do this. Note: the link at the original source (this repo) is required!

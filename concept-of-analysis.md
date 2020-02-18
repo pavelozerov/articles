@@ -14,7 +14,7 @@ have value? The key is a **Behavior-Driven Development**. This article
 describes how the BDD concept can be applied to any product development.
 
 ## Specification vs Living Documentation
-What does the specification process look like in a "classic" way? Well, it reminds me the [impossible bottle](https://en.wikipedia.org/wiki/Impossible_bottle) in the sense that analyst becomes a bottleneck (Figure 1). In this structure, the analyst is the only person, who commits to source of information (usually this is some collaboration software, e.g. Confluence). This means that any change in future must be done by the analyst, and rest of the team does not control these changes anyhow. Worse, they may not even know about them. So, this is insidious process, the main disadvantage of which is the speed of changes, because different things are always stuck in queue. The situation is also complicated by the fact, that teams work at own pace, which means that analyst will never receive the feedback on what is done immediately. It might happen even new feature description process already started. Analyst becomes a "gateway" and in this state can only hold limited amount of things in the head. Now there are two queues between which you have to switch: one with TODO things, that can be handled step-by-step only and another one with things-to-be-changed based on a late feedback from team. But as you know, between two stools one falls to the ground.
+What does the specification process look like in a "classic" way? In this structure (Figure 1), the analyst becomes a bottleneck, because this is the only person, who commits to source of information (usually this is some collaboration software, e.g. Confluence). This means that any change in future must be done by the analyst, and rest of the team does not control these changes anyhow. Worse, they may not even know about them. So, this is insidious process, the main disadvantage of which is the speed of changes, because different things are always stuck in queue. The situation is also complicated by the fact, that teams work at own pace, which means that analyst will never receive the feedback on what is done immediately. It might happen even new feature description process already started. Analyst becomes a "gateway" and in this state can only hold limited amount of things in the head. Now there are two queues between which you have to switch: one with TODO things, that can be handled step-by-step only and another one with things-to-be-changed based on a late feedback from team. But as you know, between two stools one falls to the ground.
 
 <img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure1.png?raw=true" border="1" width="200"/>
 
@@ -175,7 +175,14 @@ Scenario should not be written to one part only (tech team or business), but it 
 
 **Scenario should be testable!** Acceptance criteria have to be discussed and clear for all the people related to acceptance testing. Furthermore, **if the outcome of some scenario cannot be automated**, then maybe it's **time to think of its necessity.** Since **scenarios are the implementation of business** requirements, **first of all they must to have value for business.** Ideally they have to answer "What?" and "How?" questions.
 
-All of the above is done with an end goal - to transform scenarios into executable specification by automated tests.
+# Impossible bottle
+The essence of making BDD is like creation of [impossible bottle](https://en.wikipedia.org/wiki/Impossible_bottle).
+
+<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure16.jpeg?raw=true" border="1" width="550"/>
+
+**Figure 16**
+
+To assemble the model so that it cannot be removed without violating the integrity of either the model or the bottle. The same is here: if any part of the process will be missed/failed, then the whole setup will be broken and BDD will not work properly. The sequence of all the actions above has several goals. Of course, collaboration, creation of contract between involved parties and clearness. But on of goals is also to transform scenarios into executable specification by automated tests. 
 
 ## Automated acceptance testing
 BDD is a great collaborative process benefit that allows to keep all the information up-to-date as a **Living Documentation.** As we clarified the most important part of it is the acceptance criteria. And the end goal of BDD implementation is to make automated acceptance testing. This is the example of how scenarios should be stored with implementation of tests. The '.feature' files with scenarios inside and test code related to these scenarios are in the same repository. Another distinctive feature is that functions within test are mapped with steps from the scenarios. Such a connection gives a lot of benefits: if some part of the chain doesn't work or broken it will be noticed right away; also if some changes have to be made within scenarios or test code, then it has to be done in every related part (scenarios >> code >> tests). It gives an immediate confidence and such situation, when some part is out-of-date is excluded from the scope, because it's just impossible.
@@ -201,3 +208,4 @@ Because everything is connected. If you want to change business requirement, fir
 * [Behavior-Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development)
 * [Gherkin](https://cucumber.io/docs/gherkin/)
 * [Feature Mapping – a simpler path from stories to executable acceptance criteria](https://johnfergusonsmart.com/feature-mapping-a-simpler-path-from-stories-to-executable-acceptance-criteria/)
+* [Impossible bottle (source: wikipedia.org, author: Bin im Garten)](https://commons.wikimedia.org/wiki/File:Buddelschiff_2012_PD_06.JPG)

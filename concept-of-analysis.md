@@ -198,7 +198,7 @@ To teach people from different levels to speak on the same language, understand 
 
 **What are BDD essentials in a nutshell?**
 
-As an output - scenarios and as an outcome - same understanding.
+As an output - scenarios and as an outcome - same understanding of a system behaviour, which is automated in terms of testing.
 
 **Why there is no chance to fail using BDD?**
 

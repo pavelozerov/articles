@@ -180,7 +180,7 @@ The essence of making BDD is like creation of [impossible bottle](https://en.wik
 
 <img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure19.jpeg?raw=true" border="1" width="550"/>
 
-**Figure 16**
+**Figure 19**
 
 To assemble the model so that it cannot be removed without violating the integrity of either the model or the bottle. The same is here: if any part of the process will be missed/failed, then the whole setup will be broken and BDD will not work properly. The sequence of all the actions above has several goals. Of course, collaboration, creation of contract between involved parties and clearness. But on of goals is also to transform scenarios into executable specification by automated tests.
 

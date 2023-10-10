@@ -1,7 +1,7 @@
 # BDD essentials
 
 ## Abstract
-Within each IT organization there is an intention to make a strong
+In each IT organization there is an intention to make a strong
 competence of analysis, where all features go through a certain
 process that includes various levels of research and testing, such as
 business, functional, technical, etc. Companies put a lot of effort in

@@ -4,7 +4,7 @@
 
 > The aim of this article is to explain in detail the idea of how the behavioral scenarios are connected with implementation of tests.
 
-[BDD](https://github.com/pavelozerov/articles/blob/master/concept-of-analysis.md) is a great collaborative process that keeps things up-to-date as a Living Documentation. One of the biggest ambitions of BDD discipline is to introduce an intelligent and clear **Testing Process** by making the Living Documentation **executable**.
+[BDD](https://github.com/pavelozerov/articles/blob/master/semantics-of-ubiquitous-language.md) is a great collaborative process that keeps things up-to-date as a Living Documentation. One of the biggest ambitions of BDD discipline is to introduce an intelligent and clear **Testing Process** by making the Living Documentation **executable**.
 
 So, important things first. Sequence of actions in the test must be **1:1 mapped with the steps** in the scenario! Such a connection gives a lot of benefits: if some part of the chain doesn't work or broken, then it will be immediately noted, **because of the incorrect behavior**. Also, if there are some required behavior changes, they should be made in every related part (requirement→scenario→code→test). It gives a confidence by making impossible the situation, when documentation differs from the real system behavior.
 

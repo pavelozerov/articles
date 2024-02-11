@@ -1,4 +1,4 @@
-# The Concept of Test Process
+# The Concept of Testing
 
 ## Executable Documentation
 

@@ -24,7 +24,7 @@ Now let’s discuss the essence of testing. Below are two examples that provide 
 
 Basically, Figure 2 illustrates a **Specific-to-General** approach with **the smallest level as cornerstone**.
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-testing/figure2.PNG?raw=true" border="1" width="400"/>
+<img src="https://github.com/pavelozerov/images/blob/master/concept-of-testing/figure2.PNG?raw=true" border="1" width="500"/>
 
 **Figure 2**
 
@@ -32,7 +32,7 @@ Almost everyone in the industry is familiar with it and, de facto, it’s alread
 
 Another concept (Figure 3), in turn, suggests to “promote” unit for the sake of one of the BDD gems called ubiquitous language.
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-testing/figure3.PNG?raw=true" border="1" width="400"/>
+<img src="https://github.com/pavelozerov/images/blob/master/concept-of-testing/figure3.PNG?raw=true" border="1" width="500"/>
 
 **Figure 3**
 

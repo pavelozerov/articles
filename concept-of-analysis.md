@@ -23,7 +23,7 @@ Why BDD is a problem solver? Because of a **Living Documentation**. Instead of h
 
 ## Tower of Babel
 
-What is Behavior-Driven Development, BDD for? Someone can say that this is something to structure the documentation and knowledge source or to bring the clearness to the team, or to have a certain process of analysis, implementation and testing, or anything else. But all this really doesn't matter. Of course, all these answers are correct in their own way, but none of them says anything about the root cause. **And the root cause is Legacy in the way we specify things**. Let me guess, many specifications have been written during over the past few years, but most of the information have no clear structure? Business descriptions are often mixed up with some technical pages, which are partially outdated? Congratulations, your company is one of many that have got things out of control.
+What is Behavior Driven Development (BDD) for? Someone can say that this is something to structure the documentation and knowledge source or to bring the clearness to the team, or to have a certain process of analysis, implementation and testing, or anything else. But all this really doesn't matter. Of course, all these answers are correct in their own way, but none of them says anything about the root cause. **And the root cause is Legacy in the way we specify things**. Let me guess, many specifications have been written during over the past few years, but most of the information have no clear structure? Business descriptions are often mixed up with some technical pages, which are partially outdated? Congratulations, your company is one of many that have got things out of control.
 This led us to a situation, when it's quite hard to find the consistent information, since all the related pieces are split within different places and some are not documented at all. It means that needed information about how do things work has to be collected from different people within a team, and there is a very high probability that this information is obsolete. In sum, the problem is that such collective knowledge is usually not structured. **And if something is not structured it's probably not documented, which means that it does not exist**.
 
 Okay, but if Legacy is the root cause of a documentation lack, what is the root cause of Legacy then? Well, the answer is quite simple - the **communication lack**. In order to make an example more memorable, we can refer to the Tower of Babel myth (Figure 3).
@@ -268,7 +268,7 @@ The essence of making BDD is like creation of a ship in a bottle; to assemble th
 
 ## References
 
-- [Behavior-Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development)
+- [Behavior Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development)
 - [Gherkin](https://cucumber.io/docs/gherkin/)
 - [Feature Mapping – a simpler path from stories to executable acceptance criteria](https://johnfergusonsmart.com/feature-mapping-a-simpler-path-from-stories-to-executable-acceptance-criteria/)
 - [Impossible bottle (source: wikipedia.org, author: Bin im Garten)](https://commons.wikimedia.org/wiki/File:Buddelschiff_2012_PD_06.JPG)

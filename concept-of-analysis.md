@@ -2,7 +2,7 @@
 
 ## Abstract
 
-In each IT organization there is an intention to make a strong competence of analysis, where all features go through a certain process that includes various levels of research and testing, such as business, functional, technical, etc. Companies put a lot of effort in order to reach this. The common thing of all these strives is a wish to make a product that has **value**. Development always starts from the idea with the business requirements behind. But how to make business requirements clear and consistent? How to define them in a way to reflect the original intent without distortion? How to make sure they have value? The key is a **Behavior Driven Development** concept.
+Each IT organization has an intention to make a strong competence of analysis, where all features go through a certain process that includes various levels of research and testing, such as business, functional, technical, etc. Companies put a lot of effort in order to reach this. The common thing of all these strives is a wish to make a product that has **value**. Development always starts from the idea with the business requirements behind. But how to make business requirements clear and consistent? How to define them in a way to reflect the original intent without distortion? How to make sure they have value? The key is a **Behavior Driven Development** concept.
 
 ## Specification vs Living Documentation
 

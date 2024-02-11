@@ -107,7 +107,7 @@ The biggest advantage of BDD is that it let people to use the same language to u
 
 ## Feature breakdown
 
-Feature Mapping starts with a breakdown. What is the feature breakdown? This is a process when a team moves from general to particular, and turns development unit (Epic) into modules. Let's have a quick recap of what team already has:
+Feature Mapping starts with a breakdown. What is the Feature Breakdown? This is a process when a team moves from general to particular, and turns development unit (Epic) into modules. Let's have a quick recap of what team already has:
 
 - Prepared product backlog
 - Architecture overview of an Epic
@@ -117,13 +117,13 @@ Feature Mapping starts with a breakdown. What is the feature breakdown? This is 
 
 **Figure 11**
 
-What else we then need? According to the essence of feature Mapping, the goal of such an activity is to discover **acceptance criteria** and business requirements. For instance, based on the story from Figure 11, the analyst might note down the following initial **business rules**:
+What else we then need? According to the essence of Feature Mapping, the goal of such an activity is to discover **acceptance criteria** and business requirements. For instance, based on the story from Figure 11, the analyst might note down the following initial **business rules**:
 
 - Amount of items added to stock equals to the amount of items customer returns
 - In case of return goods must be returned to merchant's stock
 - Customer can get refund
 
-So, what is the essence of feature Mapping and breakdown then? What modules do we talk about? There are **several of them**:
+So, what is the essence of Feature Mapping and breakdown then? What modules do we talk about? There are **several of them**:
 
 - Create acceptance criteria based on business requirements
 - Create sequence diagrams as a basis for scenarios

@@ -46,7 +46,7 @@ Hence, if developers really want to understand business requirements (Wishlist),
 
 But if you’d read the same book on the original language, then you, at least, could cut the chain by half:
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-testing/figure5.PNG?raw=true"/>
+<img src="https://github.com/pavelozerov/images/blob/master/concept-of-testing/figure5.PNG?raw=true" border="1" width="400"/>
 
 **Figure 5**
 
@@ -54,24 +54,20 @@ So, General-to-Specific way of communicating to business side it’s like readin
 
 Since General-to-Specific approach requires a higher level of unit definition, figuratively speaking, development teams have to “stand on tiptoe” in order to rethink unit. It means that **unit is not a method anymore**, but on a higher level **it’s a microservice** with **set of behaviors**, which make a **capability** (or the **system**). And from that perspective an integration testing is done between systems, not behaviors!
 
->  General-to-Specific approach extends the boundaries and removes the “fence” between dev and business. There is no separate “business” anymore and dev team **really becomes a capability**.
+> General-to-Specific approach extends the boundaries and removes the “fence” between dev and business. There is no separate “business” anymore and dev team **really becomes a capability**.
 
 ## End-to-End Testing
 
 An end-to-end (E2E) testing is worth discussing, because it stands apart from other testing types. First and the most important note about E2E testing is that it’s not the sum of scenarios used for development, and hence it **must be based on separate ones prepared by stakeholders**.
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-testing/figure6.PNG?raw=true"/>
+> Scenario 1 + Scenario 2 + Scenario 3 + Scenario 4 + Scenario 5 != E2E Scenario
 
-**Figure 6**
+## Glossary of Testing
 
-# Glossary of Testing
-
-> - Definition of done and acceptance criteria must be presented for every feature
-> - Feature (story) must consist of one or more scenarios
-> - Scenarios must be tested on different levels (have to be adapted with needed level of details)
+> - Definition of done and acceptance criteria must be presented for every feature (story) that must consist of one or more scenarios that must be tested on different levels (have to be adapted with needed level of details)
 > - Every test on each level is an ACCEPTANCE test, because it's related to some scenario that in its turn related to some business requirement that has acceptance criteria
 
-## Functional Testing Levels
+### Functional Testing Levels
 
 | Levels | Preconditions | Definition |
 | ------ | ------------- | ---------- |
@@ -80,7 +76,7 @@ An end-to-end (E2E) testing is worth discussing, because it stands apart from ot
 | System Testing | Service(s) deploy. Definition of done (high level BDD scenarios that describes system behavior) | A test level that focuses on a deployed product. The test environment should ideally correspond to the final target or production environment, which requires the entire application to be up and running and focus on replicating user behaviors. Might use different API and GUI interfaces in order to test different acceptance criteria. |
 | End-to-End Testing | Full product deployment. High level BDD scenarios considering involved 3rd party services/systems | A test level that focuses on overall, end-to-end behavior of the system(s) as a whole. These tests provide final verification of business requirements considering not only our product, but maybe some other ones (3rd parties) as well. |
 
-## Testing types
+### Testing types
 
 | Types | Category | Definition |
 | ----- | -------- | ---------- |

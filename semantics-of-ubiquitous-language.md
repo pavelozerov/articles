@@ -8,13 +8,13 @@ Each IT organization has an intention to make a strong competence of analysis, w
 
 What does the specification process look like in a "classic" way? In this structure (Figure 1), the analyst becomes a bottleneck, because this is the only person, who commits to source of information (usually this is some collaboration software, e.g., Confluence). This means that any change in future must be done by the analyst and rest of the team does not control these changes anyhow. Worse, they may not even know about them. So, this is insidious process, the main disadvantage of which is the speed of changes, because different things are always stuck in the queue. Situation is also complicated by the fact, that teams work at own pace, which means that analyst will never receive the feedback on what is done immediately. It might happen even new feature description process already started. Analyst becomes a "gateway" and in this state can only hold limited amount of things in the head. Now there are two queues between which analyst have to switch: one with TO-DO things, that can be handled step by step only, and another one with things-to-be-changed based on a late feedback from team. But as you know, between two stools one falls to the ground.
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure1.png?raw=true" border="1" width="200"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure1.png?raw=true" border="1" width="200"/>
 
 **Figure 1**
 
 Why BDD is a problem solver? Because of a **Living Documentation**. Instead of having the analyst role as a "bottleneck", it transforms it into supporting role (Figure 2). In this structure the analyst still works closely with different teams, but with one important difference. Instead of making changes by oneself, analyst just collects all the needed information, structures it and creates a shared place, where all involved people work together. This shared page have different chapters (specifically for developers, QA, product owners, etc.) that must be filled by responsible team members. With this approach analyst is not the bottleneck anymore, since **now everybody is responsible for the documentation and knowledge sharing**.
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure2.png?raw=true" border="1" width="300"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure2.png?raw=true" border="1" width="300"/>
 
 **Figure 2**
 
@@ -28,13 +28,13 @@ This led us to a situation, when it's quite hard to find the consistent informat
 
 Okay, but if Legacy is the root cause of a documentation lack, what is the root cause of Legacy then? Well, the answer is quite simple - the **communication lack**. In order to make an example more memorable, we can refer to the Tower of Babel myth (Figure 3).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure3.png?raw=true" border="1" width="400"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure3.png?raw=true" border="1" width="400"/>
 
 **Figure 3**
 
 Let’s make a parallel with an IT industry. In the beginning of the project people discuss the idea and all seems to be clear - people speak on the same language. But during the project moves further, and more people get involved, in the end of the day there is always the lack of communication as a result. The stage, when it happens might vary, but it definitely happens. And since the moment when people start to speak different languages, development is doomed to become a typical IT project, where you need to go through 9 circles of Dante's hell before it will be finished (Figure 4).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure4.png?raw=true" border="1" width="400"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure4.png?raw=true" border="1" width="400"/>
 
 **Figure 4**
 
@@ -44,14 +44,14 @@ Exactly the same happened to people in Tower of Babel myth - they were failed wi
 
 Before we will go further in order to discover the implementation of BDD approach, let's have a quick look back first. The sole purpose of mentioning Tower of Babel myth was to show the importance of the communication. This is the only condition, which makes teams successful, because it creates the collaboration. It may not be obvious, but it is the only cure for Legacy, because it is exactly its root cause (Figure 5).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure5.png?raw=true" border="1" />
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure5.png?raw=true" border="1" />
 
 **Figure 5**
 
 Let's now go deeper into details. What is the root cause of communication lack? All people think differently. This is known fact and essentially this is awesome, because different thinking allows people to see things from different angles; thus we make discoveries and progress. However, such the uniqueness, the result of which is a different way of thinking, is the reason that **people understand things differently**. And exactly different understanding is the root cause of communication lack. For example, if you will ask some group of people to describe the same thing, most probably as a result you will get as many answers as there are respondents. So, just communication is not enough. Even well-coordinated communication is not enough. There should be **no room for different interpretations**, which means that communication should always provide **clearness
 and collaboration**. Based on that we can extend previous drawing with a new dependency (Figure 6).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure6.png?raw=true" border="1" width="550"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure6.png?raw=true" border="1" width="550"/>
 
 **Figure 6**
 
@@ -63,7 +63,7 @@ Let's try to figure out how we can fix this. Does BDD is designed for that? Of c
 
 In the essence, BDD is nothing but a **collaborative** practice that aims/helps to deliver higher value software more effectively by making a balance between level of details that business and development team need. It involves a lot of parties, and it's essentially important that they would be satisfied with the requirements, described scenarios and implementation details. That's why analysts, architects, developers and QA have to move to the same level of details and work can only be started, when all the related sides are agreed on scenarios (Figure 7).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure7.png?raw=true" border="1" width="350"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure7.png?raw=true" border="1" width="350"/>
 
 **Figure 7**
 
@@ -72,7 +72,7 @@ failed. Anyway, it's also important to remember that during the implementation t
 
 The most important thing to remember is that BDD is all about working together where teams provide result that is valuable and really matters (Figure 8).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure8.png?raw=true" border="1" width="400"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure8.png?raw=true" border="1" width="400"/>
 
 **Figure 8**
 
@@ -82,7 +82,7 @@ Development always starts from the idea. Usually all the ideas-without-analysis 
 
 When analysis is ready developers can start to work on **feature implementation** using tickets from **development backlog**. When development finished, there is a QA phase when engineers prepare **automated tests** that are 1:1 implementation of the behavioral scenarios created during the feature mapping process. When functional testing is done, feature moves to **acceptance testing**, where analyst and business have to make sure that current implementation does exactly the same what is in the business requirements (Figure 9).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure9.png?raw=true" border="1" width="550"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure9.png?raw=true" border="1" width="550"/>
 
 **Figure 9**
 
@@ -101,7 +101,7 @@ The biggest advantage of BDD is that it let people to use the same language to u
 
 > Feature Mapping is collaborative activity, which makes the whole team work together in order to define **value** of the feature.
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure10.png?raw=true" border="1" width="550"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure10.png?raw=true" border="1" width="550"/>
 
 **Figure 10**
 
@@ -113,7 +113,7 @@ Feature Mapping starts with a breakdown. What is the feature breakdown? This is 
 - Architecture overview of an Epic
 - Business requirements described as user story (Figure 11)
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure11.png?raw=true" border="1" width="550"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure11.png?raw=true" border="1" width="550"/>
 
 **Figure 11**
 
@@ -137,7 +137,7 @@ So, what is the essence of feature Mapping and breakdown then? What modules do w
 
 In order to create good scenarios, feature requires a bit more breakdown than just acceptance criteria. Sequence diagrams are one of the useful artifacts of that process. Basically sequence diagram is a set of **actors** and **actions** that describes the workflow in a technical way. Ideally each couple of interaction arrows is a separate scenario with a **testable outcome**, but it might also be that scenario includes several arrows from the diagram (Figure 12).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure12.png?raw=true" border="1" width="550"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure12.png?raw=true" border="1" width="550"/>
 
 **Figure 12**
 
@@ -147,7 +147,7 @@ Sequence diagram is the result of detailing the architecture overview diagram. B
 
 Once acceptance criteria are defined and feature is described, then this is the right time to go further and breakdown sequence diagram even more, and make scenarios. Scenario is a **representation of sequence diagram** in text (Figure 13).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure13.png?raw=true" border="1" width="550"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure13.png?raw=true" border="1" width="550"/>
 
 **Figure 13**
 
@@ -173,7 +173,7 @@ Usually ideal scenarios have several layers of details in order to be clear both
 
 In order to make the scenario breakdown simpler, the **AAA** principle can be used. Going back to the syntax of BDD, you may have noticed that this is kind of a modern mix of different "classical" techniques that combine "precondition, trigger, post-condition" notation from the use cases, "As a... I want... So that..." notation from the user stories and "Act, Assert, Arrange" notation from the science of unit testing. But in our case **AAA stands for "Actor- Action-Actor"** (Figure 14).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure14.png?raw=true" border="1" width="550"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure14.png?raw=true" border="1" width="550"/>
 
 **Figure 14**
 
@@ -183,7 +183,7 @@ In your mind's eye divide scenario horizontally and vertically. **Each part of s
 
 Since there is a lot of criteria on how to write good scenarios, there is a scenario evaluation checklist that should be filled in for each scenario (Figure 15).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure15.png?raw=true" border="1" width="550"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure15.png?raw=true" border="1" width="550"/>
 
 **Figure 15**
 
@@ -197,7 +197,7 @@ Scenario should not be written considering one part only (tech or business), but
 
 Remember, BDD is **not a framework** or any kind of library (in a technical sense), that can be just taken and included to your project! There is no chance that after reading a couple of articles on the Internet and start writing Given-When-Then constructions you will get it to work. Rather the opposite, you will find out that BDD doesn’t work for you. But don’t worry, this is expected behavior! Because BDD is **not a form, but meaning**. Hence, usage of Given-When-Then syntax itself will never solve your problems within a process. Furthermore, it can make the problem even worse. Let me give you an analogy (Figure 16).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure16.PNG?raw=true" border="1" width="550"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure16.PNG?raw=true" border="1" width="550"/>
 
 **Figure 16**
 
@@ -207,7 +207,7 @@ This is exactly what I mean - in order to adapt BDD, first you need to change yo
 
 The essence of making a shape of your internal process similar to the shape of BDD is to create the greatest BDD artifact: **unity-of-everything circle** (Figure 17).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure17.PNG?raw=true" border="1" width="550"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure17.PNG?raw=true" border="1" width="550"/>
 
 **Figure 17**
 
@@ -219,7 +219,7 @@ The secret treasure of that approach is that **business requirements = TO-DO lis
 
 Last, but not least BDD gem is the **ubiquitous language** (Figure 18).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure18.png?raw=true" border="1" width="550"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure18.png?raw=true" border="1" width="550"/>
 
 **Figure 18**
 
@@ -229,7 +229,7 @@ Another hidden treasure of BDD is the thing that can be called **reusable scenar
 
 > Adaption of BDD is like creation of [impossible bottle](https://en.wikipedia.org/wiki/Impossible_bottle).
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-analysis/figure19.jpeg?raw=true" border="1" width="550"/>
+<img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure19.jpeg?raw=true" border="1" width="550"/>
 
 **Figure 19**
 

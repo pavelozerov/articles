@@ -262,7 +262,7 @@ To teach people from different levels to speak on the same language, understand 
 
 Everything is connected. If you want to change business requirement, first an item in product backlog must be created and prioritized. Then it must be analyzed and new acceptance criteria with sequence diagrams should be clarified. Then scenarios should be updated. And only after that it's possible to change the code and related tests. This is a power of Living Documentation that is always in up-to-date state.
 
-Contract. Such an agreement between all the involved parties. Like with a real contract people put own signatures, which means that they agree on conditions (requirements) that should be met. Otherwise, deal (feature/product) will be failed.
+Contract. Such an agreement between all involved parties. Like with a real contract people put own signatures, which means that they agree on conditions (requirements) that should be met. Otherwise, deal (feature/product) will be failed.
 
 The essence of making BDD is like creation of a ship in a bottle; to assemble the model so that it cannot be removed without violating the integrity of either the model or the bottle. The same is here: if any part of the process will be missed/failed, then the whole setup will be broken and BDD will not work properly.
 

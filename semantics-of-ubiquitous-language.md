@@ -6,17 +6,21 @@ Each IT organization has an intention to make a strong competence of analysis, w
 
 ## Specification vs Living Documentation
 
-What does the specification process look like in a "classic" way? In this structure (Figure 1), the analyst becomes a bottleneck, because this is the only person, who commits to source of information (usually this is some collaboration software, e.g., Confluence). This means that any change in future must be done by the analyst and rest of the team does not control these changes anyhow. Worse, they may not even know about them. So, this is insidious process, the main disadvantage of which is the speed of changes, because different things are always stuck in the queue. Situation is also complicated by the fact, that teams work at own pace, which means that analyst will never receive the feedback on what is done immediately. It might happen even new feature description process already started. Analyst becomes a "gateway" and in this state can only hold limited amount of things in the head. Now there are two queues between which analyst have to switch: one with TO-DO things, that can be handled step by step only, and another one with things-to-be-changed based on a late feedback from team. But as you know, between two stools one falls to the ground.
+What does the specification process look like in a "classic" way? In this structure (Figure 1), the analyst becomes a bottleneck, because this is the only person, who commits to source of information (usually this is some collaboration software, e.g., Confluence).
 
 <img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure1.png?raw=true" border="1" width="200"/>
 
 **Figure 1**
 
-Why BDD is a problem solver? Because of a **Living Documentation**. Instead of having the analyst role as a "bottleneck", it transforms it into supporting role (Figure 2). In this structure the analyst still works closely with different teams, but with one important difference. Instead of making changes by oneself, analyst just collects all the needed information, structures it and creates a shared place, where all involved people work together. This shared page have different chapters (specifically for developers, QA, product owners, etc.) that must be filled by responsible team members. With this approach analyst is not the bottleneck anymore, since **now everybody is responsible for the documentation and knowledge sharing**.
+This means that any change in future must be done by the analyst and rest of the team does not control these changes anyhow. Worse, they may not even know about them. So, this is insidious process, the main disadvantage of which is the speed of changes, because different things are always stuck in the queue. Situation is also complicated by the fact, that teams work at own pace, which means that analyst will never receive the feedback on what is done immediately. It might happen even new feature description process already started. Analyst becomes a "gateway" and in this state can only hold limited amount of things in the head. Now there are two queues between which analyst have to switch: one with TO-DO things, that can be handled step by step only, and another one with things-to-be-changed based on a late feedback from team. But as you know, between two stools one falls to the ground.
+
+Why BDD is a problem solver? Because of a **Living Documentation**. Instead of having the analyst role as a "bottleneck", it transforms it into supporting role (Figure 2).
 
 <img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure2.png?raw=true" border="1" width="300"/>
 
 **Figure 2**
+
+In this structure the analyst still works closely with different teams, but with one important difference. Instead of making changes by oneself, analyst just collects all the needed information, structures it and creates a shared place, where all involved people work together. This shared page have different chapters (specifically for developers, QA, product owners, etc.) that must be filled by responsible team members. With this approach analyst is not the bottleneck anymore, since **now everybody is responsible for the documentation and knowledge sharing**.
 
 > - If something is **not structured**, it's probably **not documented**, which means that it **does not exist**!
 > - ~~When everyone is responsible, no one is responsible~~ → when everyone is responsible, then **structure** is responsible!

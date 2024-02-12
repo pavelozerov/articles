@@ -1,4 +1,4 @@
-# The Concept of Testing
+# My thoughts on software testing
 
 ## Executable Documentation
 

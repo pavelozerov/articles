@@ -1,4 +1,4 @@
-# Semantics of Ubiquitous Language concept (SOUL)
+# Semantics of Ubiquitous Language (SOUL)
 
 ## Abstract
 

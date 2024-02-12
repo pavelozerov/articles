@@ -12,7 +12,7 @@ The “.feature” files and test code related to the scenarios in these files m
 
 As additional benefit, making changes through the Git, requires a Pull Request (PR) to be created. In its turn, it requires that the **PR must be reviewed before going further**, which can only be done by **all** (!) the involved parties.
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-testing/figure1.PNG?raw=true" border="1" width="300"/>
+<img src="https://github.com/pavelozerov/images/blob/master/thoughts-on-testing/figure1.PNG?raw=true" border="1" width="300"/>
 
 **Inside out rendering of scenarios**
 
@@ -24,7 +24,7 @@ Now let’s discuss the essence of testing. Below are two examples that provide 
 
 Basically, Figure 2 illustrates a **Specific-to-General** approach with **the smallest level as cornerstone**.
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-testing/figure2.PNG?raw=true" border="1" width="500"/>
+<img src="https://github.com/pavelozerov/images/blob/master/thoughts-on-testing/figure2.PNG?raw=true" border="1" width="500"/>
 
 **Figure 2**
 
@@ -32,7 +32,7 @@ Almost everyone in the industry is familiar with it and, de facto, it’s alread
 
 Another concept (Figure 3), in turn, suggests to “promote” unit for the sake of one of the BDD gems called ubiquitous language.
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-testing/figure3.PNG?raw=true" border="1" width="500"/>
+<img src="https://github.com/pavelozerov/images/blob/master/thoughts-on-testing/figure3.PNG?raw=true" border="1" width="500"/>
 
 **Figure 3**
 
@@ -40,13 +40,13 @@ Another concept (Figure 3), in turn, suggests to “promote” unit for the sake
 
 Hence, if developers really want to understand business requirements (Wishlist), they must start thinking in the way as business does - from **General-to-Specific**. But what does it mean? Let me give you an analogy. Imagine that you’re reading a book. And the book is translated from the original language it’s written on to your native language. So, besides different level of understanding, the chain of obstacles is much longer:
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-testing/figure4.PNG?raw=true"/>
+<img src="https://github.com/pavelozerov/images/blob/master/thoughts-on-testing/figure4.PNG?raw=true"/>
 
 **Figure 4**
 
 But if you’d read the same book on the original language, then you, at least, could cut the chain by half:
 
-<img src="https://github.com/pavelozerov/images/blob/master/concept-of-testing/figure5.PNG?raw=true" border="1" width="400"/>
+<img src="https://github.com/pavelozerov/images/blob/master/thoughts-on-testing/figure5.PNG?raw=true" border="1" width="400"/>
 
 **Figure 5**
 

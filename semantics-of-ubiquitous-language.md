@@ -203,7 +203,7 @@ Remember, BDD is **not a framework** or any kind of library (in a technical sens
 
 **Figure 16**
 
-If we imagine the process as a circle and BDD as a square, then it's obvious that these shapes don't match. But if we transform the process to the shape of a circle as well as BDD, then we have two identical shapes that match ideally!
+If we imagine the process as a square and BDD as a circle, then it's evident that these shapes don't match. But if we transform the process to the shape of a circle (as BDD is), we have two identical shapes that match ideally!
 
 To adopt BDD, first, you must change your processes because its implementation is always about discipline. Once it is done, you will immediately see how BDD works for your team instead of being an annoying thing that requires additional attention.
 

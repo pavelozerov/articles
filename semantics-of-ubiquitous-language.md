@@ -12,7 +12,7 @@ What does the specification process look like in a "classic" way? In this struct
 
 **Figure 1**
 
-This means that the analyst must make any changes in the future, and the rest of the team does not control these changes anyhow. Worse, they may not even know about them. So, this is an insidious process. The main disadvantage is the speed of change because different things are always stuck in the queue. The situation is also complicated because teams work at their own pace, so analysts will only receive feedback on what is done after some time. It might happen even if the new feature description process already started. Analysts become a "gateway" and, in this state, can only hold a limited number of things in their heads. Now there are two queues between which analysts have to switch: one with TO-DO things that can be handled step by step only and another one with things-to-be-changed based on late feedback from the team. But as you know, one falls to the ground between two stools.
+This means that the analyst must make any changes in the future, and the rest of the team does not control these changes anyhow. Worse, they may not even know about them. So, this is an insidious process. The main disadvantage is the speed of change because different things are always stuck in the queue. The situation is also complicated because teams work at their own pace, so analysts will only receive feedback on what is done after some time. It might happen even if the new feature description process already started. Analysts become a "gateway" and, in this state, can only hold a limited number of things in their heads. Now, there are two queues between which analysts have to switch: one with TO-DO things that can be handled step by step only and another one with things-to-be-changed based on late feedback from the team. But as you know, one falls to the ground between two stools.
 
 Why is BDD a problem solver? Because of a **Living Documentation**. Instead of having the analyst role as a "bottleneck," it transforms into the supporting role (Figure 2).
 
@@ -27,8 +27,7 @@ In this structure, the analyst still works closely with different teams, but wit
 
 ## Tower of Babel
 
-What is Behavior Driven Development (BDD) for? Someone can say that this is something to structure the documentation and knowledge source or to bring the clearness to the team, or to have a specific process of analysis, implementation and testing, or anything else. But all this doesn't matter. Of course, all these answers are correct in their way, but none of them says anything about the root cause. **And the root cause is Legacy in the way we specify things**. Let me guess: many specifications have been written over the past few years, but most of the information has no clear structure. Business descriptions are often mixed up with some technical pages, which are partially outdated. Congratulations, your company is one of many that have got things out of control.
-This led us to a situation where it's pretty hard to find consistent information since all the related pieces are split within different places, and some are not documented. It means that needed information about how things work must be collected from other people within a team, and there is a high probability that this information is obsolete. In sum, the problem is that such collective knowledge is usually not structured. **And if something is not structured, it's probably not documented, meaning it does not exist**.
+What is Behavior Driven Development (BDD) for? Someone can say that this is something to structure the documentation and knowledge source, to bring clarity to the team, or to have a specific process of analysis, implementation, testing, or anything else. But all this doesn't matter. Of course, all these answers are correct in their way, but none of them says anything about the root cause. **And the root cause is Legacy in the way we specify things**. Let me guess: many specifications have been written over the past few years, but most of the information has no clear structure. Business descriptions are often mixed up with some technical pages, which are partially outdated. Congratulations, your company is one of many that have got things out of control. This led us to a situation where it's pretty hard to find consistent information since all the related pieces are split within different places, and some are not documented. It means that needed information about how things work must be collected from other people within a team, and there is a high probability that this information is obsolete. In sum, the problem is that such collective knowledge is usually not structured. **And if something is not structured, it's probably not documented, meaning it does not exist**.
 
 Okay, but if Legacy is the root cause of a documentation lack, what is the root cause of Legacy then? Well, the answer is quite simple - the **communication lack**. To make an example more memorable, we can refer to the Tower of Babel myth (Figure 3).
 
@@ -36,7 +35,7 @@ Okay, but if Legacy is the root cause of a documentation lack, what is the root 
 
 **Figure 3**
 
-Let's make a parallel with the IT industry. At the beginning of the project, people discuss the idea, and all seems to be clear - people speak the same language. But as the project moves further and more people get involved, at the end of the day, there is always a lack of communication as a result. When it happens, the stage might vary, but it definitely happens. And since the moment when people start to speak different languages, development is doomed to become a typical IT project, where you need to go through 9 circles of Dante's hell before it is finished (Figure 4).
+Let's make a parallel with the IT industry. At the beginning of the project, people discuss the idea, and all seems to be clear - people speak the same language. But as the project moves further and more people get involved, at the end of the day, there is always a lack of communication as a result. When it happens, the stage might vary, but it definitely happens. And since the moment people start to speak different languages, development is doomed to become a typical IT project, where you need to go through 9 circles of Dante's hell before it is finished (Figure 4).
 
 <img src="https://github.com/pavelozerov/images/blob/master/semantics-of-ubiquitous-language/figure4.png?raw=true" border="1" width="400"/>
 
@@ -144,7 +143,7 @@ The feature requires more breakdown than just acceptance criteria to create good
 
 **Figure 12**
 
-A sequence diagram is the result of detailing the architecture overview diagram. Basically, you need to "zoom in" some part of the architecture view and describe it in another level of detail. A sequence diagram is extremely useful for the implementation process. Hence it is related to the implementation level of details, whereas an architecture overview relates to the high level.
+A sequence diagram is the result of detailing the architecture overview diagram. Basically, you need to "zoom in" some part of the architecture view and describe it in another level of detail. A sequence diagram is extremely useful for the implementation process. Hence, it is related to the implementation level of details, whereas an architecture overview relates to the high level.
 
 ## Writing a good scenario
 
@@ -216,7 +215,7 @@ The essence of making a shape of your internal process similar to the shape of B
 
 An entry point here is the business requirements, which are kind of a Wishlist. Using the feature breakdown process (described above), the wishlist will be represented by some Epic(s). Each consists of some Story(s) called a TO-DO list. This list has some Scenario(s) that will be represented for developers in some Task(s). And since Scenario(s) will become Test(s) in the end, we are **100% sure** that Code works exactly the same way as it was described in business requirements.
 
-Hence, we have **1:1 mapping of everything**. But what does it mean? What is the benefit of it? Well, using this structure, we can easily remove one part of the chain and... that's alright, nothing will happen because **these are replacement parts**! For example, if the team decides not to make tasks, the behavior is described on a story level; if there are no automated tests ready, scenarios cover that part, and stakeholders can always verify the requirements manually, etc.
+Hence, we have **1:1 mapping of everything**. But what does it mean? What is the benefit of it? Well, using this structure, we can easily remove one part of the chain, and... that's alright, nothing will happen because **these are replacement parts**! For example, if the team decides not to make tasks, the behavior is described on a story level; if there are no automated tests ready, scenarios cover that part, and stakeholders can always verify the requirements manually, etc.
 
 The secret treasure of that approach is that **business requirements = TO-DO list = scenario(s) = tests = code**!
 

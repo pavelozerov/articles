@@ -244,7 +244,7 @@ The sequence of all the actions above has several goals. Of course, collaboratio
 > - BDD is not a form, but the meaning behind it!
 > - Unity-of-everything circle → business requirements = TO-DO list = scenario(s) = tests = code!
 
-## SOUL highlights (keynote)
+## SOUL highlights
 
 **What is BDD?**
 

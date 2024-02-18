@@ -62,26 +62,7 @@ End-to-end (E2E) testing is worth discussing because it stands apart from other 
 
 > Scenario 1 + Scenario 2 + Scenario 3 + Scenario 4 + Scenario 5 != E2E Scenario
 
-## Glossary of Testing
+## Keynote
 
 > - Definition of done and acceptance criteria must be presented for every feature (story) that must consist of one or more scenarios that must be tested on different levels (have to be adapted with the needed level of details)
 > - Every test on each level is an ACCEPTANCE test because it's related to some scenario that, in turn, is associated with some business requirement that has acceptance criteria
-
-### Functional Testing Levels
-
-| Levels | Preconditions | Definition |
-| ------ | ------------- | ---------- |
-| Unit Testing | Description of unit behavior (low-level BDD scenario that describes the function under test) | A test level that focuses on how functions behave. Unit test is a fast in- memory test that depends on a code in the assembly under test and nothing else. Unit tests use mocks of services and data and should be part of the project repository. |
-| Integration Testing | Connection to DB (or any other deployed internal-related components). Mocked external components (if there is a need). Description of integrated systems' behavior (low-level BDD scenario that describes the integration of at least two systems). Only part of the service/component can be deployed (for instance, just one endpoint) | A test level focusing on integration between systems (how multiple units behave with each other). As soon as a database connection is made or any other behavior with the database is made, this is no longer a unit test but an integration test. Unlike unit tests, it should use real implementations for internal components/services instead of mocking them (mocks are allowed only for external components/services, which are not a part of SUT - System Under Test). The integration test level is responsible for contract testing (API contracts and behavior) and behavior between services that depend on each other. |
-| System Testing | Service(s) deploy. Definition of done (high-level BDD scenarios describing system behavior) | A test level focusing on a deployed product. The test environment should correspond to the final target or production environment, which requires the entire application to be up and running and focus on replicating user behaviors. Might use different API and GUI interfaces to test different acceptance criteria. |
-| End-to-End Testing | Full product deployment. High-level BDD scenarios involve 3rd-party services/systems | A test level that focuses on the overall, end-to-end behavior of the system(s). These tests provide final verification of business requirements considering our product and some others (3rd parties). |
-
-### Testing types
-
-| Types | Category | Definition |
-| ----- | -------- | ---------- |
-| Smoke testing | Functional | A test suite that covers the main functionality of a component or SUT to determine whether it works properly before the planned testing process begins. |
-| Regression testing | Functional | Previously developed product works as expected (change-related testing). No new defects were introduced for existing functionality after a new development. |
-| Security testing | Non-Functional | Testing to determine the product's security (covered by a separate team). |
-| Performance testing | Non-Functional | Testing to determine the performance efficiency of a component or SUT (load, stress, scalability, volume, spike). |
-| Exploratory testing | Functional | Focuses on discovery and relies on the guidance of the individual tester to uncover defects that are not easily covered in the scope of other tests. |

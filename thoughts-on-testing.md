@@ -1,4 +1,4 @@
-# My thoughts on software testing
+# My thoughts on Software Testing
 
 ## Executable Documentation
 
